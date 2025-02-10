@@ -5,7 +5,7 @@ import requests
 def get_new_token():
     # Burada yeni token alınır. Məsələn, bir API istifadə edə bilərsiniz.
     # API ünvanını və parametrləri əlavə edin.
-    api_url = "https://example.com/getToken"  # Token alınan API ünvanı
+    api_url = "https://www.ecanlitvizle.app//getToken"  # Token alınan API ünvanı
     response = requests.get(api_url)
     new_token = response.json()["token"]  # API cavabından tokeni çıxarın
     return new_token
