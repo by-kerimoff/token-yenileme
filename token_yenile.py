@@ -28,7 +28,7 @@ def main():
         print(f"Yeni m3u8 linki: {m3u8_link}")
         
         # 1 saat gözləyirik (tokenin müddəti bitənə qədər)
-        time.sleep(3600)
+        time.sleep(500)
 
 # Proqramı başlat
 if name == "main":
